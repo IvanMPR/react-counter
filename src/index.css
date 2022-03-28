@@ -1,13 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  place-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.react-logo {
+  width: 8rem;
 }
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  /* background-color: bisque; */
+}
+
+.counter {
+  display: block;
+  font-size: 8rem;
+  color: #333;
+  text-align: center;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  margin: 0 1rem;
+  color: #333;
+  border: 2px solid #333;
+  background-color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: #333;
+  color: white;
+}
+button:active {
+  transform: translateY(2px);
+  transition: all 0.15s;
+}
+
+/* .btn-container {
+  background-color: bisque;
+} */
