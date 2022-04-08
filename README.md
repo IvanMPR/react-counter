@@ -1,3 +1,3 @@
 # react-counter
 
-One of the first apps created in the process of learning React library
+One of the first apps created in the process of learning React library.
