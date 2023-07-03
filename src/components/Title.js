@@ -5,7 +5,7 @@ export default function Title() {
   return (
     <h1>
       <span>
-        <img className="react-logo" src={logo} alt=""></img>
+        <img className="react-logo" src={logo} alt="react logo"></img>
       </span>
       React Counter
     </h1>
